@@ -1,0 +1,388 @@
+.block{
+    border-bottom:1px solid grey;
+}
+.help{
+    float: left;
+}
+.help a{
+    color:gray;
+    text-decoration: none;
+}
+.Account{
+    float: right;
+}
+.Account li{
+    float: left;
+    list-style-type: none;
+    padding: 0px 15px;
+    border-right: 1px dotted grey;
+}
+.Account li a{
+    color: grey;
+    text-decoration: none;
+}
+.Account li a:hover{
+    color:red;
+}
+.clear{
+    clear: both
+}
+.banner{
+    height: 200px;
+    padding: 5px 0px;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    background-color: #383838;
+}
+.navigation{
+    float:left;
+}
+.navigation ul{
+    float:left;
+    padding: 0px;
+    margin: 0px;
+}
+.navigation li{
+    float: left;
+    list-style-type: none;
+    border-right: 2px ridge grey;
+    padding: 15px 0px;
+}
+.navigation li a{
+    color:white;
+    text-decoration: none;
+    padding:15px 30px;
+    text-transform:uppercase;
+}
+.navigation li a:hover{
+    background-color: red;
+}
+.searchbar{
+    float: right;
+    margin: 0px;
+}
+.searchbar input{
+    float: left;
+    height: 20px;
+    margin: 10px 5px 0px 0px;
+    width: 300px;
+    border-radius: 6px 6px 6px 6px;
+}
+.searchbar img{
+    float: right;
+    margin: 10px 0px 0px 0px;
+}
+.product{
+    border-bottom:1px solid lightgray;
+    height: 300px;
+    padding: 20px 0px;
+}
+.block2{
+    float: left;
+    height: 300px;
+    width: 25%;
+    border: 1px solid lightgray;
+    padding: 0px;
+}
+.block2 ul{
+    list-style-type: none;
+    padding: 0px;
+}
+.block2 h3{
+    margin: 0px;
+    height: 20px;
+    color: white;
+    background-color: #B81D22;
+    padding: 10px;
+}
+.block2 ul a{
+    text-decoration: none;
+    color: gray;
+    padding-left:10px;
+    text-transform:uppercase;
+}
+.block2 ul a:hover{
+    color:red;
+}
+.block2 li{
+    margin: 10px;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 15px;
+}
+.block2 li span{
+    padding: 10px;
+}
+.block3{
+    float: right;
+    height: 310px;
+    width: 72%;
+    border: 1px solid lightgray;
+}
+.block3 img{
+    float:left;
+    width:60%;
+    height: 100%;
+}
+.text{
+    float: left;
+    width:37%;
+    color: #B81D22;
+}
+.text span{
+    font-size: 68px;
+    text-transform: uppercase
+}
+
+.product2{
+    border-bottom:1px solid lightgray;
+    height: 40px;
+    padding: 20px 0px;
+}
+.block4{
+    float: left;
+    height: 50px;
+    width: 20%;
+    border: 1px solid white;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.block4 h3{
+    text-transform: uppercase
+}
+.block5 {
+    float: right;
+    height: 50px;
+    width: 200px;
+    border: 1px solid white;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.block5 ul {
+    list-style-type: none;
+}
+.block5 ul a{
+    text-decoration: none;
+    color: black;
+}
+.block5 ul span{
+    padding: 5px;
+    color: red;
+}
+.product3{
+    border-bottom:1px solid lightgray;
+    height: 290px;
+    padding: 20px 0px;
+}
+.productblock{
+    float: left;
+    height: 100%;
+    width: 22.9%;
+    border: 1px solid white;
+    margin: 10px 10px;
+}
+.productname{
+    border-bottom: 1px solid red;
+    height: 20px;
+}
+.productname h4{
+    text-transform: uppercase;
+    color: lightgray;
+    padding-left: 65px;
+}
+.product3 .productblock img{
+    width: 100%;
+    height: 212px;
+    vertical-align: middle;
+}
+.productprice{
+    float: left;
+    padding-left: 10px; 
+}
+.productdetail{
+    float: right;
+    height: 30px;
+    width: 22.9%;
+    border: 1px solid red;
+    background-color: #B81D22;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.productdetail a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase
+}
+.productdetail a:hover{
+    color:black;
+}
+.pagewidth {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footblock {
+    float: left;
+    border-left: 1px solid lightgray;
+    width: 22.8%;
+    margin: 0% 1%;
+}
+.footblock P {
+    color: gray;
+    padding: 0px 0px 10px 20px;
+    border-bottom: 1px solid lightgray;
+    width: 70%
+}
+.footblock ul {
+    list-style-type: none;
+}
+.footblock li {
+    padding-bottom: 5px;
+}
+.footblock li a {
+    text-decoration: none;
+    color: grey;
+}
+.footblock li a:hover {
+    color: red;
+}
+.maintop{
+    border: 1px solid lightgray;
+    height: 40px;
+    margin: 5px 0px;
+    padding: 10px 20px;
+}
+.maintop ul{
+    list-style-type: none;
+}
+.maintop ul li{
+    float: left;
+    padding-right: 2px;
+}
+.maintop ul li a{
+    text-decoration: none;
+    color:gray;
+}
+.mainbottom{
+    border-bottom: 1px solid lightgray;
+}
+.mainright{
+    float: right;
+    border: 1px solid lightgray;
+    height: 100%;
+    width: 25%;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    height: 900px;
+}
+.mainleft{
+    float: left;
+    border: 1px solid lightgray;
+    width: 74%;
+    margin-bottom: 5px;
+    height: 900px;
+}
+.mainleft01{
+    float: left;
+    border:1px solid lightgray;
+    width: 48.3%;
+    height: 300px;
+    margin: 5px;
+}
+.mainleft01 img{
+    width: 100%;
+    height: 100%;
+}
+.mainleft02{
+    float: left;
+    width: 48.4%;
+    height: 300px;
+    margin: 5px;
+    color: gray;
+}
+.mainleft02 h3{
+    color:#B81D22;
+    padding-left: 20px;
+}
+.mainleft02 p{
+    padding-left: 30px;
+}
+.mainleft02 span{
+    float: left;
+    padding-left: 30px;
+}
+.mainleft02 strong{
+    float: left;
+    padding-left: 20px;
+}
+#size{
+    margin-left: 20px;
+}
+.lableprice{
+    padding-top: 14px;
+    padding-left: 10px;
+}
+.linered{
+    clear: both;
+    border-bottom: 1px solid #B81D22;
+    margin: 10px;
+    padding-top: 10px;
+}
+.linegray{
+    clear: both;
+    border-bottom: 1px solid lightgray;
+    margin: 10px;
+    padding-top: 10px;
+}
+.price{
+    float: left;
+    color:#B81D22;
+    font-size: 32px
+}
+.mainleft02 ul{
+    list-style-type: none
+}
+.mainleft02 li{
+    float: left;
+    margin-top: 16px;
+    margin-right: 50px
+}
+.mainleft02 li a{
+    text-decoration: none;
+    color:gray;
+}
+.mainleft02 li a:hover{
+    color: #B81D22;
+}
+.mainleft03{
+    float: left;
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+    height: 40px;
+}
+.mainleft03 ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.mainleft03 li{
+    float: left;
+    height: 19px;
+    padding: 10px 25px;
+    border: 1px solid lightgray;
+}
+
+.mainleft04{
+    float: left;;
+    width: 100%;
+    height: 540px;
+}
+.mainleft04 p{
+    margin: 10px;
+    font-size: 16px;
+    line-height: 31px;
+    color:gray;
+}
